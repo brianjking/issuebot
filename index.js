@@ -1,4 +1,3 @@
-// var settings  = require('./settings.json');
 var Slack     = require('slack-api').promisify();
 var Botkit    = require('botkit');
 var github    = require('octonode');
@@ -7,9 +6,6 @@ var botName = process.env.BOT_NAME;
 var slackToken = process.env.BOT_TOKEN;
 var githubToken = process.env.GITHUB_TOKEN;
 var githubRepository = process.env.GITHUB_REPO;
-
-// var botName = settings.botName;
-// var slackToken = settings.slackToken;
 
 var controller = Botkit.slackbot();
 var bot = controller.spawn({
