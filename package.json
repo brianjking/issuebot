@@ -11,7 +11,8 @@
   "author": "Sander Ploegsma",
   "license": "MIT",
   "dependencies": {
+    "botkit": "0.0.8",
     "octonode": "^0.7.4",
-    "slackbots": "^0.5.1"
+    "slack-api": "^0.1.11"
   }
 }
