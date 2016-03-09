@@ -1,0 +1,17 @@
+{
+  "name": "issuebot",
+  "version": "1.0.0",
+  "description": "Create github issues from Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/sanderploegsma/issuebot",
+  "author": "Sander Ploegsma",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "0.0.8",
+    "octonode": "^0.7.4",
+    "slack-api": "^0.1.11"
+  }
+}
